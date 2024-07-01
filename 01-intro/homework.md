@@ -4,7 +4,7 @@ In this homework, we'll learn more about search and use Elastic Search for pract
 
 > It's possible that your answers won't match exactly. If it's the case, select the closest one.
 
-## Q1. Running Elastic 
+## Q1. Running Elastic
 
 Run Elastic Search 8.4.3, and get the cluster information. If you run it on localhost, this is how you do it:
 
@@ -71,7 +71,7 @@ Use only `question` and `text` fields and give `question` a boost of 4, and use 
 What's the score for the top ranking result?
 
 * 94.05
-* 84.05
+* 84.05 <--
 * 74.05
 * 64.05
 
@@ -84,7 +84,7 @@ Now let's only limit the questions to `machine-learning-zoomcamp`.
 Return 3 results. What's the 3rd question returned by the search engine?
 
 * How do I debug a docker container?
-* How do I copy files from a different folder into docker container’s working directory?
+* How do I copy files from a different folder into docker container’s working directory? <--
 * How do Lambda container images work?
 * How can I annotate a graph?
 
@@ -118,7 +118,7 @@ CONTEXT:
 What's the length of the resulting prompt? (use the `len` function)
 
 * 962
-* 1462
+* 1462 <--
 * 1962
 * 2462
 
@@ -143,7 +143,7 @@ Use the `encode` function. How many tokens does our prompt have?
 
 * 122
 * 222
-* 322
+* 322 <--
 * 422
 
 Note: to decode back a token into a word, you can use the `decode_single_token_bytes` function:
